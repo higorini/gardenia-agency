@@ -30,6 +30,7 @@ h6,
 .h5,
 .h6 {
   font-weight: 600;
+  color: var(--c-dark);
 }
 
 a {
@@ -93,4 +94,33 @@ img {
     url(../images/hero-1.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--c-brand);
+  margin: 16px auto 24px auto;
+}
+
+.section-title p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iconbox {
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(var(--c-brand-rgb), 0.1);
+  color: var(--c-brand);
+  font-size: 34px;
+  flex: none;
 }
